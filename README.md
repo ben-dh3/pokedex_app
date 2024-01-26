@@ -1,8 +1,25 @@
-# React + Vite
+# Pokedex React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Type the name of the Pokemon you want to find in the search bar, the SearchPokedex component fetches the data from the [PokeAPI](https://pokeapi.co/), and is formatted in the FormatData component.
 
-Currently, two official plugins are available:
+Currently displays data including: image, name, height, weight, type, abilities, stats. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+In the future I intend to include a description of the abilities.
+
+# How to Run the Project
+
+- Install dependencies:
+
+  `npm i`
+
+- Run the development server:
+  
+  `npm run dev`
+  
+- Go to `http://localhost:5173/` and search for a Pokemon of your choice!
+
+# Examples
+
+![example1](https://github.com/ben-dh3/pokedex_app/blob/main/images/example1.png?raw=true)
+
+![example2](https://github.com/ben-dh3/pokedex_app/blob/main/images/example2.png?raw=true)
